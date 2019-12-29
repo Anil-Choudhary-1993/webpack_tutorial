@@ -1,2 +1,2 @@
-import getGreetings from './greetings';
+import getGreetings from './greet';
 getGreetings("Json");
