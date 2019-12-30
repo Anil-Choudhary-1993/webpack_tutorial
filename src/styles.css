@@ -2,3 +2,9 @@ html {
     background-color: blueviolet;
     font-size: larger;
 }
+
+button {
+    background-color: chartreuse;
+    height: 40px;
+    width: 100px;
+}
