@@ -13,7 +13,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint"
+      "pre-commit": "pretty-quick --stagged && npm run lint && npm run test"
     }
   },
   "repository": {
@@ -47,6 +47,8 @@
     "html-webpack-plugin": "^3.2.0",
     "husky": "^3.1.0",
     "jest": "^24.9.0",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1",
     "react-hot-loader": "^4.12.18",
     "style-loader": "^1.1.2",
     "webpack": "^4.41.5",

@@ -6,6 +6,11 @@ class App extends Component {
   state = {
     count: 0
   }
+
+  UNSAFE_componentWillMount() {
+    console.log('componentWillMount')
+  }
+
   increment = () => {
     this.setState({ count: this.state.count + 1 })
   }
