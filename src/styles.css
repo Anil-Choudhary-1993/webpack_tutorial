@@ -1,10 +1,11 @@
 html {
-    background-color: blueviolet;
-    font-size: larger;
+  background-color: white;
+  font-size: medium;
 }
 
-button {
-    background-color: chartreuse;
-    height: 40px;
-    width: 100px;
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: auto;
 }
