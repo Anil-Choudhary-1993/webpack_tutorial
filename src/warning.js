@@ -1,5 +1,5 @@
-import React from 'react';
+import React from 'react'
 
-const Warning = () => <h2>Take It Easy</h2>;
+const Warning = () => <h2>Take It Easy</h2>
 
-export default Warning;
+export default Warning
