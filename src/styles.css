@@ -9,3 +9,11 @@ body {
   width: 100%;
   height: auto;
 }
+
+div {
+  font-size: 26px;
+  color: blue;
+  margin-left: 4px;
+  margin-top: 4px;
+  padding: 4px;
+}
