@@ -7,10 +7,6 @@ class App extends Component {
     count: 0
   }
 
-  UNSAFE_componentWillMount() {
-    console.log('componentWillMount')
-  }
-
   increment = () => {
     this.setState({ count: this.state.count + 1 })
   }
@@ -21,7 +17,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        Counter : {this.state.count || null}
+        <b>Counter</b> :: {this.state.count || null}
         {this.state.count > 5 ? (
           <React.Suspense fallback={null}>
             <Warning />
